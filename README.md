@@ -20,18 +20,18 @@ Before launch the script install these packages in your **Python3** environment:
  conda activate tf1.11
 ```
 
-下载[Bert中文模型](https://github.com/google-research/bert)至本地，并更改[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/bert/run.sh)中的BERT_BASE_DIR路径。
+下载[Bert中文模型](https://github.com/google-research/bert)至本地，并更改[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/blob/master/bert/run.sh)中的BERT_BASE_DIR路径。
 
 在datafountain平台上下载数据，解压至本地目录。
 
-运行数据预处理脚本[dataprocess/data_process.py](https://github.com/zhengyima/ncov_sentiment/dataprocess/data_process.py)，将数据处理成bert的输入格式。（注意更改代码中的输出路径，并保持输出路径与[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/bert/run.sh)中的NCOV_DIR路径一致。
+运行数据预处理脚本[dataprocess/data_process.py](https://github.com/zhengyima/ncov_sentiment/blob/master/dataprocess/data_process.py)，将数据处理成bert的输入格式。（注意更改代码中的输出路径，并保持输出路径与[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/blob/master/bert/run.sh)中的NCOV_DIR路径一致。
 
 ```
  python dataprocess/data_process.py
 ```
 
 
-更改[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/bert/run.sh)中的OUTPUT_DIR路径为模型及结果输出路径。
+更改[bert/run.sh](https://github.com/zhengyima/ncov_sentiment/blob/master/bert/run.sh)中的OUTPUT_DIR路径为模型及结果输出路径。
 
 
 # Launch the script
