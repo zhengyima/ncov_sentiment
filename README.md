@@ -3,7 +3,7 @@
 
 NCOV_Sentiment Source Code 
 
-疫情期间网民情绪识别baseline，使用BERT进行端到端的fine-tuning，平台评测F1值0.716。
+[疫情期间网民情绪识别比赛](https://www.datafountain.cn/competitions/423)baseline，使用BERT进行端到端的fine-tuning，平台评测F1值0.716。
 
 很基础的基线，只用了labeled数据，没有利用unlabeled数据，没有调参。
 
