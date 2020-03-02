@@ -5,6 +5,8 @@ NCOV_Sentiment Source Code
 
 疫情期间网民情绪识别baseline，使用BERT进行端到端的fine-tuning，平台评测F1值0.716。
 
+目前只用了labeled数据，没有利用unlabeled数据。
+
 # Preinstallation
 
 Before launch the script install these packages in your **Python3** environment:
