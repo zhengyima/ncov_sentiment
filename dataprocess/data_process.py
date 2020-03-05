@@ -21,7 +21,7 @@ for line in train_f:
 	# weiboId, weiboTime, userid, text, img, video, label =  line.strip().split(",")
 train_f.close()
 
-train_end = int(len(train_list) * 1)
+train_end = int(len(train_list) * 0.8)
 dev_end = int(len(train_list) * 0.9)
 
 f_w_train = open("/home/zhengyi_ma/ncov_sentiment/dataset_bert/train.tsv","w")
